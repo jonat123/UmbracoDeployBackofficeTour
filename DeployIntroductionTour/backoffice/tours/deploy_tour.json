@@ -1,0 +1,119 @@
+﻿[
+  {
+    "name": "An introduction to Umbraco Deploy in the backoffice",
+    "alias": "Deploy_backoffice_tour",
+    "group": "Getting started with Deploy",
+    "groupOrder": 0,
+    "allowDisable": true,
+    "culture": "en-US",
+    "contentType": "",
+    "requiredSections": [ "content","settings", "media" ],
+    "steps": [
+      {
+        "title": "Deploy Workspace",
+        "content": "<p>This is the deploy workspace</p>",
+        "type": null,
+        "element": "[data-element='tab-deploy']",
+        "elementPreventClick": false,
+        "backdropOpacity": 0.6,
+        "event": "click",
+        "view": null,
+        "customProperties": null
+
+      },
+      {
+        "title": "Deploy Workspace area",
+        "content": "<p>In here you can see the environment you are on, as well as the transfer queue for the next environment.</p>",
+        "type": null,
+        "element": "[data-element='tab-content-deploy']",
+        "elementPreventClick": true,
+        "backdropOpacity": 0.6,
+        "view": null,
+        "customProperties": null
+
+      },
+
+      {
+        "title": "settings section",
+        "content": "<p>In the settings section of Umbraco it is possible to manage the deploy settings</p>",
+        "type": null,
+        "element": "[data-element='section-settings']",
+        "elementPreventClick": false,
+        "backdropOpacity": 0.6,
+        "event": "click",
+        "view": null,
+        "customProperties": null
+
+      },
+
+      {
+        "title": "Deploy settings section",
+        "content": "<p>There is several settings that you can manage from the deploy dashboard</p>",
+        "type": null,
+        "element": "[data-element='tab-deployManagement']",
+        "elementPreventClick": false,
+        "backdropOpacity": 0.6,
+        "event": "click",
+        "view": null,
+        "customProperties": null
+
+      },
+
+      {
+        "title": "Deploy status",
+        "content": "<p>From the Deploy status you can see which version of deploy you are on, the last time a operation was run on your project and the deployment status.</p>",
+        "type": null,
+        "element": "[id='deploy-dashboard-status']",
+        "elementPreventClick": true,
+        "backdropOpacity": 0.6,
+        "view": null,
+        "customProperties": null
+
+      },
+      {
+        "title": "Deploy Operations",
+        "content": "<p>You can also run some Deploy Operations. like updating the Umbraco Schema, export the schema and clear the signatures.</p>",
+        "type": null,
+        "element": "[id='deploy-dashboard-operations']",
+        "elementPreventClick": true,
+        "backdropOpacity": 0.6,
+        "view": null,
+        "customProperties": null
+
+      },
+      {
+        "title": "Download Deploy Artifacts",
+        "content": "<p>It is also possible to download the deploy artifacts as a zip file with the Umbraco schema in form of UDA file. </p>",
+        "type": null,
+        "element": "[id='deploy-dashboard-download-artifacts']",
+        "elementPreventClick": true,
+        "backdropOpacity": 0.6,
+        "view": null,
+        "customProperties": null
+
+      },
+      {
+        "title": "Configuration Details",
+        "content": "<p>Here you can see the current environments configuration. To change the configurations the udaptes should be added in the appsettings.json file.</p>",
+        "type": null,
+        "element": "[id='deploy-dashboard-configuration']",
+        "elementPreventClick": true,
+        "backdropOpacity": 0.6,
+        "view": null,
+        "customProperties": null
+
+      },
+      {
+        "title": "Schema Comparison",
+        "content": "<p>You can compare the schema on your environment which is managed by Umbraco Deploy.</p>",
+        "type": null,
+        "element": "[id='deploy-dashboard-schema-comparison']",
+        "elementPreventClick": true,
+        "backdropOpacity": 0.6,
+        "view": null,
+        "customProperties": null
+
+      }
+    ]
+  }
+]
